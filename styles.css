@@ -44,21 +44,26 @@ a {
     align-items: center;
     gap: 64px;
     flex-wrap: wrap;
+    margin-top: 24px;
 }
 
 .txt-and-button {
     flex: 1;
+    max-width: 50%;
+    margin-bottom: 24px;
 }
 
 .hero-main-txt {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
 .hero-sub-txt {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0;
 }
 
 
@@ -81,7 +86,7 @@ a {
 
 
 .hero-img {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     object-fit: contain;
     flex: 1;
