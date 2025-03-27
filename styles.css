@@ -67,7 +67,8 @@ a {
 }
 
 
-.hero-btn {
+.hero-btn,
+.cta-btn {
     /* For this one I counted with Github Copilot */
     background-color: #3882F6; /* Blue background */
     color: #F9FAF8; /* White text */
@@ -80,13 +81,19 @@ a {
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.cta-btn:hover {
     background-color: #1D4ED8; /* Darker blue on hover */
+}
+
+.cta-btn{
+    border: #E5E7EB solid 2px;
+    border-color: #FFFFFF;
 }
 
 
 .hero-img {
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
     object-fit: contain;
     flex: 1;
@@ -137,7 +144,7 @@ margin: 16px;
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 48px 25%;
+    padding: 25px 25%;
 }
 
 .quote-txt {
@@ -153,4 +160,28 @@ margin: 16px;
     color: #1F2937;
     font-weight: 700;
     text-align: right;
+}
+
+.cta-section {
+    color: #FFFFFF;
+    background-color: #3882F6;
+    border: solid #FFFFFF 100px;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 24px; */
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-section{
+    background-color: #1F2937;
+    color: #FFFFFF;
+    padding: 16px;
+    text-align: center;
 }
